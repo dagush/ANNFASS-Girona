@@ -22,7 +22,8 @@ Then we must execute two scripts, Transform Rotate, which rotates the building i
 
 File -> Transform -> Delete
 
-To what we add:
+To what we add a Fuse node to simplify the geometry by eliminating repeated (or extremely close) vertices:
+
 File -> Transform -> Delete -> Fuse -> Transform
 
 This last transform is just a security one, that makes the building larger to prevent numerical errors in the following stages (subdiv)
@@ -40,3 +41,5 @@ https://drive.google.com/file/d/1mguXpvz4plqHRtSOjrky-md5UUSAzHHC/view?usp=shari
 Older versions, with full documentation, are available at the old project page:
 http://ggg.udg.edu/skylineEngine/modules/buildingEngine/
 Unfortunately, buildingEngine is not maintained anymore, so the nodes work thanks to Houdini's backwards compatibility.
+
+Copyright ANNFASS project.
